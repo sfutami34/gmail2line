@@ -8,23 +8,23 @@
 
 1. Google アカウントを作成する（既存のアカウントがあれば新規作成は不要）。
 2. GAS（Google Apps Script）でプロジェクトを作成する。  
-   - A) [Google Cloud](https://console.cloud.google.com/welcome?hl=ja)へアクセスし、「プロジェクトの選択」から「新しいプロジェクト」を選択する。
-        <img width="931" height="287" alt="image" src="https://github.com/user-attachments/assets/f3cc1f40-1e42-4c68-8ab2-2c20c8b7e990" />
-        <img width="931" height="700" alt="image" src="https://github.com/user-attachments/assets/174c86f7-da73-4faa-97c1-9d3e7f166263" />
-   - B) 「プロジェクト名」を入力する。「親リソース」はデフォルト（組織なし）のままで良い。
-        <img width="931" height="700" alt="image" src="https://github.com/user-attachments/assets/d8ad8a5e-40e6-4b91-8d9b-179494ddda4f" />
+   - [Google Cloud](https://console.cloud.google.com/welcome?hl=ja)へアクセスし、「プロジェクトの選択」から「新しいプロジェクト」を選択する。
+     <img width="931" height="287" alt="image" src="https://github.com/user-attachments/assets/f3cc1f40-1e42-4c68-8ab2-2c20c8b7e990" />
+     <img width="931" height="700" alt="image" src="https://github.com/user-attachments/assets/174c86f7-da73-4faa-97c1-9d3e7f166263" />
+   - 「プロジェクト名」を入力する。「親リソース」はデフォルト（組織なし）のままで良い。
+     <img width="931" height="700" alt="image" src="https://github.com/user-attachments/assets/d8ad8a5e-40e6-4b91-8d9b-179494ddda4f" />
 3. 作成したプロジェクトで Gmail API を有効化する。  
-   - A) (2)で作成したプロジェクトを選択する（「プロジェクトの選択」から作成したプロジェクトを選択する）。
-        <img width="931" height="700" alt="image" src="https://github.com/user-attachments/assets/6c05a19e-afbb-4fde-b934-44dbce6a19e9" />
-   - B) 「API とサービス」から「ライブラリ」を選択する。
-        <img width="931" height="248" alt="image" src="https://github.com/user-attachments/assets/e122770e-7981-450b-9a29-3281c80a72e9" />
-        <img width="931" height="848" alt="image" src="https://github.com/user-attachments/assets/78f5f950-562c-4d45-badc-a4d0efa68e67" />
-   - C) 検索窓で「gmail api」を検索する。
-        <img width="931" height="578" alt="image" src="https://github.com/user-attachments/assets/74a77513-89bd-45f0-a3d6-6819b1a546a5" />
-   - D) 「Gmail API」を選択する。
-        <img width="931" height="848" alt="image" src="https://github.com/user-attachments/assets/c1e07e85-77ad-428a-a428-0087789d5b3a" />
-   - E) 「有効にする」を選択し、有効化する。
-        <img width="931" height="848" alt="image" src="https://github.com/user-attachments/assets/b8812a0f-7db2-46f0-aa30-f66ac1d2bd6f" />
+   - (2)で作成したプロジェクトを選択する（「プロジェクトの選択」から作成したプロジェクトを選択する）。
+     <img width="931" height="700" alt="image" src="https://github.com/user-attachments/assets/6c05a19e-afbb-4fde-b934-44dbce6a19e9" />
+   - 「API とサービス」から「ライブラリ」を選択する。
+     <img width="931" height="248" alt="image" src="https://github.com/user-attachments/assets/e122770e-7981-450b-9a29-3281c80a72e9" />
+     <img width="931" height="848" alt="image" src="https://github.com/user-attachments/assets/2f1e1cb2-f79e-42aa-9a42-ca80da24a3ed" />
+   - 検索窓で「gmail api」を検索する。
+     <img width="931" height="578" alt="image" src="https://github.com/user-attachments/assets/74a77513-89bd-45f0-a3d6-6819b1a546a5" />
+   - 「Gmail API」を選択する。
+     <img width="931" height="848" alt="image" src="https://github.com/user-attachments/assets/c1e07e85-77ad-428a-a428-0087789d5b3a" />
+   - 「有効にする」を選択し、有効化する。
+     <img width="931" height="848" alt="image" src="https://github.com/user-attachments/assets/b8812a0f-7db2-46f0-aa30-f66ac1d2bd6f" />
 4. LINE 公式アカウントを作成する。  
    - [クイックスタート](https://developers.line.biz/ja/docs/messaging-api/getting-started/#create-oa)を参考に公式アカウントを作成する。
 5. LINE Messaging API を使用するためのアクセストークンを作成する。  
