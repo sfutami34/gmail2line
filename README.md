@@ -29,7 +29,7 @@
 2. スプレッドシートを開き、シート名を変更する（ここでは「サンプルシート」とする）。  
 3. セル A1 に「メールID」、B1 に「受信日時」、C1 に「メール本文」と入力する。  
 4. メニューの「拡張機能」から「Apps Script」を選択する。  
-5. 「エディタ」から `コード.gs` を選択し、GAS で Gmail を受信して LINE へ転送するサンプルコードをコピペする。  
+5. 「エディタ」から `コード.gs` を選択し、GAS で[Gmailを受信してLINEへ転送するサンプルコード](https://github.com/sfutami34/gmail2line/blob/main/sample.gs)をコピペする。  
 6. `accessToken` にアクセストークンを入力する。  
 7. `sheetId` にスプレッドシートの ID を入力する。ID は以下のようなスプレッドシート URL の xxxxxxxxxx で示した箇所となります。  
    - `https://docs.google.com/spreadsheets/d/xxxxxxxxxx/edit?`
