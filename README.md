@@ -26,10 +26,30 @@
    - 「有効にする」を選択し、有効化する。
      <img width="931" height="848" alt="image" src="https://github.com/user-attachments/assets/b8812a0f-7db2-46f0-aa30-f66ac1d2bd6f" />
 4. LINE 公式アカウントを作成する。  
-   - [クイックスタート](https://developers.line.biz/ja/docs/messaging-api/getting-started/#create-oa)を参考に公式アカウントを作成する。
+   - [クイックスタート（1. LINE公式アカウントを作成する）](https://developers.line.biz/ja/docs/messaging-api/getting-started/#create-oa)を参考に公式アカウントを作成する。
 5. LINE Messaging API を使用するためのアクセストークンを作成する。  
-   - A) [LINE Official Account Manager](https://account.line.biz/login?redirectUri=https%3A%2F%2Faccount.line.biz%2Foauth2%2Fcallback%3Fclient_id%3D10%26code_challenge%3DAniP_YsWYC5em6FF7zZvB4YQ08pwrX17cMNz1uNWZ8c%26code_challenge_method%3DS256%26redirect_uri%3Dhttps%253A%252F%252Fmanager.line.biz%252Fapi%252Foauth2%252FbizId%252Fcallback%26response_type%3Dcode%26state%3D6lrew9vFYY3mdlNctzU9uuYWsSMOrIHM)にログインする。  
-   - B) [クイックスタート](https://developers.line.biz/ja/docs/messaging-api/getting-started/#using-oa-manager)を参考にアクセストークンを取得する。
+   - [LINE Official Account Manager](https://account.line.biz/login?redirectUri=https%3A%2F%2Faccount.line.biz%2Foauth2%2Fcallback%3Fclient_id%3D10%26code_challenge%3DAniP_YsWYC5em6FF7zZvB4YQ08pwrX17cMNz1uNWZ8c%26code_challenge_method%3DS256%26redirect_uri%3Dhttps%253A%252F%252Fmanager.line.biz%252Fapi%252Foauth2%252FbizId%252Fcallback%26response_type%3Dcode%26state%3D6lrew9vFYY3mdlNctzU9uuYWsSMOrIHM)にログインしてアカウントを作成する。
+     例）「gmail2ine用アカウント」という名前でアカウントを作成した場合の画面
+     <img width="1056" height="741" alt="image" src="https://github.com/user-attachments/assets/2d84e1ee-65bc-4180-8c43-844e88a423b5" />
+   - [クイックスタート（2. LINE公式アカウントでMessaging APIを有効にする）](https://developers.line.biz/ja/docs/messaging-api/getting-started/#using-oa-manager)を参考にアクセストークンを取得する。
+      - 「設定」→「Messaging API」→「Messaging APIを利用する」の順に選択する。
+        <img width="1310" height="300" alt="image" src="https://github.com/user-attachments/assets/6091f3dc-844e-4ca9-ba4d-e743b3b92b72" />
+        <img width="1310" height="560" alt="image" src="https://github.com/user-attachments/assets/79edea6b-5bef-4f67-8898-6f8b2ae83759" />
+      - 新規プロバイダー名を入力し、「同意する」を選択する。プライバシーポリシーと利用規約のURLの入力を求められますが、任意のためなければそのまま「OK」を選択する。
+        <img width="1310" height="827" alt="image" src="https://github.com/user-attachments/assets/539bebc5-de32-4f80-a479-9bd146f99f38" />
+      - 「以下の内容でMessaging APIを利用しますか？」と聞かれるため、「OK」を選択する。
+        <img width="615" height="397" alt="image" src="https://github.com/user-attachments/assets/979e917d-77a8-4ce4-80e2-4a7bd11005c1" />
+      - 表示された画面の「LINE Developersコンソール」を選択する。
+        <img width="1310" height="686" alt="image" src="https://github.com/user-attachments/assets/e6428ec3-e5e6-4a44-aeaf-d057c859a417" />
+      - 作成したプロバイダーを選択し、以下の画面が表示されればOK。
+        <img width="1310" height="734" alt="image" src="https://github.com/user-attachments/assets/f4a81e59-7f49-4624-b3e3-98d477aea6c6" />
+      - 「gmail2lineアカウント」を選択する。
+        <img width="1064" height="640" alt="image" src="https://github.com/user-attachments/assets/88b28501-ba0f-4b87-a94b-4ed92c477ac2" />
+      - 「Messaging API設定」を選択する。
+        <img width="779" height="794" alt="image" src="https://github.com/user-attachments/assets/9ea73a9d-2e66-438a-ad49-0b757c47049b" />
+      - 画面下端までスクロールして、「発行」を選択する。
+        <img width="1064" height="640" alt="image" src="https://github.com/user-attachments/assets/b8328f13-f57f-4063-8394-489c246d6b7c" />
+      - 表示された文字列全体がアクセストークンであるため、コピーして控えておく。
 
 ---
 
