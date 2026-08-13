@@ -2,7 +2,7 @@
 // Gmail2LINE 設定値
 // ============================================
 // 対象となるメール送信者のアドレス
-var target_addr = "atg119@city.atsugi.kanagawa.jp";
+var target_addr = "xxx@xxx.xx";
 
 // 何分前から現在までの新着メールを取得するか（トリガーの時間間隔に合わせる）
 var get_interval = 30;
