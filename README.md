@@ -55,16 +55,24 @@
 
 ## 2. GAS（Google Apps Script）で Gmail を受信して LINE へ転送する
 
-1. Google Drive 内にスプレッドシートを作成する。  
-2. スプレッドシートを開き、シート名を変更する（ここでは「サンプルシート」とする）。  
-3. セル A1 に「メールID」、B1 に「受信日時」、C1 に「メール本文」と入力する。  
-4. メニューの「拡張機能」から「Apps Script」を選択する。  
-5. 「エディタ」から `コード.gs` を選択し、GAS で[Gmailを受信してLINEへ転送するサンプルコード](https://github.com/sfutami34/gmail2line/blob/main/sample.gs)をコピペする。  
-6. `accessToken` にアクセストークンを入力する。  
-7. `sheetId` にスプレッドシートの ID を入力する。ID は以下のようなスプレッドシート URL の xxxxxxxxxx で示した箇所となります。  
+1. Google Chrome や Microsoft Edge などのブラウザで Google Drive を開く。
+   <img width="1310" height="544" alt="image" src="https://github.com/user-attachments/assets/7a50b0d5-6fd7-4781-81a0-df937612958e" />
+2. Drive上でスプレッドシートを作成する。
+   <img width="1310" height="476" alt="image" src="https://github.com/user-attachments/assets/7faaf70f-b6b1-4b96-bec9-51c04f55f02f" />
+   <img width="1310" height="572" alt="image" src="https://github.com/user-attachments/assets/d51e3c11-8d8d-41a1-bee8-fec741f3b075" />  
+3. スプレッドシートを開き、ファイル名とシート名を変更する（ここではシート名を「サンプルシート」とする）。
+   <img width="1310" height="513" alt="image" src="https://github.com/user-attachments/assets/79861391-4701-4e21-a99f-a8f7ed475975" />
+4. セル A1 に「メールID」、B1 に「受信日時」、C1 に「メール本文」と入力する。
+   <img width="1314" height="513" alt="image" src="https://github.com/user-attachments/assets/04371138-3f0c-47c9-b0e0-d1071d6bdaf2" />
+5. メニューの「拡張機能」から「Apps Script」を選択する。
+   <img width="1310" height="513" alt="image" src="https://github.com/user-attachments/assets/6f9b0cb5-89be-4e1d-92a7-e093b523a0ba" />
+6. 「エディタ」から `コード.gs` を選択し、GAS で[Gmailを受信してLINEへ転送するサンプルコード](https://github.com/sfutami34/gmail2line/blob/main/sample.gs)をコピペする。
+   
+9. `accessToken` にアクセストークンを入力する。  
+10. `sheetId` にスプレッドシートの ID を入力する。ID は以下のようなスプレッドシート URL の xxxxxxxxxx で示した箇所となります。  
    `https://docs.google.com/spreadsheets/d/xxxxxxxxxx/edit?`
-8. 実行タイマーを設定する。サイドバーの時計マーク「トリガー」を選択する。  
-9. 画面右下の「トリガーの追加」を選択し、以下の設定でトリガーを追加する（「保存」ボタンを押下する）。  
+11. 実行タイマーを設定する。サイドバーの時計マーク「トリガー」を選択する。  
+12. 画面右下の「トリガーの追加」を選択し、以下の設定でトリガーを追加する（「保存」ボタンを押下する）。  
    - 実行する関数を選択：`main`  
    - 実行するデプロイを選択：`Head`  
    - イベントのソースを選択：時間手動型  
