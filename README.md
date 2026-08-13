@@ -25,6 +25,7 @@
      <img width="931" height="848" alt="image" src="https://github.com/user-attachments/assets/c1e07e85-77ad-428a-a428-0087789d5b3a" />
    - 「有効にする」を選択し、有効化する。
      <img width="931" height="848" alt="image" src="https://github.com/user-attachments/assets/b8812a0f-7db2-46f0-aa30-f66ac1d2bd6f" />
+   - 同じように「SpreadSheets」を検索して、有効化する。
 4. LINE 公式アカウントを作成する。  
    - [クイックスタート（1. LINE公式アカウントを作成する）](https://developers.line.biz/ja/docs/messaging-api/getting-started/#create-oa)を参考に公式アカウントを作成する。
 5. LINE Messaging API を使用するためのアクセストークンを作成する。  
