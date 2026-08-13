@@ -25,7 +25,12 @@
      <img width="931" height="848" alt="image" src="https://github.com/user-attachments/assets/c1e07e85-77ad-428a-a428-0087789d5b3a" />
    - 「有効にする」を選択し、有効化する。
      <img width="931" height="848" alt="image" src="https://github.com/user-attachments/assets/b8812a0f-7db2-46f0-aa30-f66ac1d2bd6f" />
-   - 同じように「SpreadSheets」を検索して、有効化する。
+   - Apps Scriptのサイドメニューから「ライブラリ」を選択する。
+     <img width="1024" height="651" alt="image" src="https://github.com/user-attachments/assets/46549008-c002-4c25-a884-1f6edc9e6a6d" />
+   - 「スクリプトID」に「17p1ghyOkbWOhdE4bdBFhOXL079I-yt5xd0LAi00Zs5N-bUzpQtN7iT1a」を入力、「検索」を選択する。
+     <img width="1024" height="647" alt="image" src="https://github.com/user-attachments/assets/74e2ddfa-4d35-4836-896e-8c6b51102f7d" />
+   - 以下の画面が表示されたら、「追加」を選択する。
+     <img width="1024" height="645" alt="image" src="https://github.com/user-attachments/assets/23036e4b-9541-4df5-b3dc-a22a6a93394c" />
 4. LINE 公式アカウントを作成する。  
    - [クイックスタート（1. LINE公式アカウントを作成する）](https://developers.line.biz/ja/docs/messaging-api/getting-started/#create-oa)を参考に公式アカウントを作成する。
 5. LINE Messaging API を使用するためのアクセストークンを作成する。  
