@@ -67,18 +67,36 @@
 5. メニューの「拡張機能」から「Apps Script」を選択する。
    <img width="1310" height="513" alt="image" src="https://github.com/user-attachments/assets/6f9b0cb5-89be-4e1d-92a7-e093b523a0ba" />
 6. 「エディタ」から `コード.gs` を選択し、GAS で[Gmailを受信してLINEへ転送するサンプルコード](https://github.com/sfutami34/gmail2line/blob/main/sample.gs)をコピペする。
-   
-9. `accessToken` にアクセストークンを入力する。  
-10. `sheetId` にスプレッドシートの ID を入力する。ID は以下のようなスプレッドシート URL の xxxxxxxxxx で示した箇所となります。  
-   `https://docs.google.com/spreadsheets/d/xxxxxxxxxx/edit?`
-11. 実行タイマーを設定する。サイドバーの時計マーク「トリガー」を選択する。  
-12. 画面右下の「トリガーの追加」を選択し、以下の設定でトリガーを追加する（「保存」ボタンを押下する）。  
+   <img width="1126" height="982" alt="image" src="https://github.com/user-attachments/assets/3a6f7b52-293c-4d0f-ae35-ead3bd808648" />
+7. `target_addr` に受信対象のメールアドレスを入力する。
+   <img width="1126" height="982" alt="image" src="https://github.com/user-attachments/assets/82eb8fca-53fa-4adf-b590-cf07614e53bd" />
+8. `accessToken` にアクセストークンを入力する。
+   <img width="1126" height="982" alt="image" src="https://github.com/user-attachments/assets/0f78a0ba-1919-439d-b6dd-5bd38cae819d" />
+9. `sheetId` にスプレッドシートのIDを入力する。IDは以下のようなスプレッドシートURLの黒塗りの箇所となります。  
+   <img width="1126" height="453" alt="image" src="https://github.com/user-attachments/assets/8c26fdb5-3269-4d61-b732-af36de91ebf0" />
+   <img width="1126" height="915" alt="image" src="https://github.com/user-attachments/assets/ecc97d2e-4270-4dd7-b4df-f317a367d01d" />
+10. Apps Scriptに名前を付ける。「無題のプロジェクト」をクリックして名称を入力する。
+    <img width="1126" height="915" alt="image" src="https://github.com/user-attachments/assets/90f04851-8793-4f61-a6fd-a3a8f41298ba" />
+11. プロジェクトを保存する。
+    <img width="1126" height="427" alt="image" src="https://github.com/user-attachments/assets/04e77828-2e9f-49dd-8c1b-2c95f6a625e6" />
+12. 実行タイマーを設定する。サイドバーの時計マーク「トリガー」を選択する。
+    <img width="1024" height="452" alt="image" src="https://github.com/user-attachments/assets/1719d4cc-0f8a-4590-9bc5-01580c16221b" />
+13. 画面右下の「トリガーの追加」を選択する。
+    <img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/5b782704-8c4a-4fed-babb-dee9367ecfad" />
+14. 以下の設定でトリガーを追加する（「保存」ボタンを押下する）。  
    - 実行する関数を選択：`main`  
    - 実行するデプロイを選択：`Head`  
    - イベントのソースを選択：時間手動型  
    - 時間ベースのトリガーのタイプを選択：分ベースのタイマー  
    - 時間の感覚を選択（分）：1分おき  
    - エラー通知設定：毎日通知を受け取る
+15. 警告が出ますが無視して「Advanced」を選択する。
+   <img width="602" height="566" alt="image" src="https://github.com/user-attachments/assets/f0da9f97-27fe-48c7-b8f3-3586d6ccbc07" />
+16. 「Go to (プロジェクト名)」を選択する。
+   <img width="602" height="658" alt="image" src="https://github.com/user-attachments/assets/29f21fa9-16c5-47df-a4b0-c8760d1ecf4d" />
+17. 「Select all」にチェックを入れ、画面下へスクロールして「Continue」を選択する。
+   <img width="1008" height="1032" alt="image" src="https://github.com/user-attachments/assets/21c27450-ad5e-4892-92f2-924b304ea527" />
+18. aaa
 
 ---
 
