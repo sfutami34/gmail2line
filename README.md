@@ -1,6 +1,6 @@
-# Gmail受信時にLINEグループへメッセージ転送する
+# Gmail受信時にLINEアカウントへメッセージ転送する
 
-このリポジトリ／ドキュメントは、Google Apps Script（GAS）を使って Gmail を受信し、LINE Messaging API を使って LINE のグループチャットに転送するための手順をまとめたものです。
+このリポジトリ／ドキュメントは、Google Apps Script（GAS）を使って Gmail を受信し、LINE Messaging API を使って LINEアカウントにメッセージ転送するための手順をまとめたものです。
 
 ---
 
