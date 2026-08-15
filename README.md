@@ -41,6 +41,7 @@
    
      <img width="931" height="848" alt="image" src="https://github.com/user-attachments/assets/b8812a0f-7db2-46f0-aa30-f66ac1d2bd6f" />
 
+4. 作成したプロジェクトで SpreadSheetsSQL を利用できるようにする。  
    - Apps Scriptのサイドメニューから「ライブラリ」を選択する。
    
      <img width="1024" height="651" alt="image" src="https://github.com/user-attachments/assets/46549008-c002-4c25-a884-1f6edc9e6a6d" />
@@ -55,6 +56,7 @@
 
 5. LINE 公式アカウントを作成する。  
    - [クイックスタート（1. LINE公式アカウントを作成する）](https://developers.line.biz/ja/docs/messaging-api/getting-started/#create-oa)を参考に公式アカウントを作成する。
+   
 6. LINE Messaging API を使用するためのアクセストークンを作成する。  
    - [LINE Official Account Manager](https://account.line.biz/login?redirectUri=https%3A%2F%2Faccount.line.biz%2Foauth2%2Fcallback%3Fclient_id%3D10%26code_challenge%3DAniP_YsWYC5em6FF7zZvB4YQ08pwrX17cMNz1uNWZ8c%26code_challenge_method%3DS256%26redirect_uri%3Dhttps%253A%252F%252Fmanager.line.biz%252Fapi%252Foauth2%252FbizId%252Fcallback%26response_type%3Dcode%26state%3D6lrew9vFYY3mdlNctzU9uuYWsSMOrIHM)にログインしてアカウントを作成する。
      例）「gmail2ine用アカウント」という名前でアカウントを作成した場合の画面
@@ -116,7 +118,7 @@
 
    <img width="1310" height="513" alt="image" src="https://github.com/user-attachments/assets/79861391-4701-4e21-a99f-a8f7ed475975" />
 
-4. セル A1 に「メールID」、B1 に「受信日時」、C1 に「メール本文」と入力する。
+4. セル A1 に「メールID」、B1 に「受信日時」、C1 に「件名」、C1 に「内容」と入力する。
 
    <img width="1314" height="513" alt="image" src="https://github.com/user-attachments/assets/04371138-3f0c-47c9-b0e0-d1071d6bdaf2" />
 
@@ -142,23 +144,23 @@
 
    <img width="1126" height="915" alt="image" src="https://github.com/user-attachments/assets/ecc97d2e-4270-4dd7-b4df-f317a367d01d" />
 
-11. Apps Scriptに名前を付ける。「無題のプロジェクト」をクリックして名称を入力する。
+10. Apps Scriptに名前を付ける。「無題のプロジェクト」をクリックして名称を入力する。
 
     <img width="1126" height="915" alt="image" src="https://github.com/user-attachments/assets/90f04851-8793-4f61-a6fd-a3a8f41298ba" />
 
-12. プロジェクトを保存する。
+11. プロジェクトを保存する。
 
     <img width="1126" height="427" alt="image" src="https://github.com/user-attachments/assets/04e77828-2e9f-49dd-8c1b-2c95f6a625e6" />
 
-13. 実行タイマーを設定する。サイドバーの時計マーク「トリガー」を選択する。
+12. 実行タイマーを設定する。サイドバーの時計マーク「トリガー」を選択する。
 
     <img width="1024" height="452" alt="image" src="https://github.com/user-attachments/assets/1719d4cc-0f8a-4590-9bc5-01580c16221b" />
 
-14. 画面右下の「トリガーの追加」を選択する。
+13. 画面右下の「トリガーの追加」を選択する。
 
     <img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/5b782704-8c4a-4fed-babb-dee9367ecfad" />
 
-15. 以下の設定でトリガーを追加する（「保存」ボタンを押下する）。
+14. 以下の設定でトリガーを追加する（「保存」ボタンを押下する）。
 
    - 実行する関数を選択：`main`  
    - 実行するデプロイを選択：`Head`  
@@ -171,15 +173,15 @@
 
     <img width="602" height="566" alt="image" src="https://github.com/user-attachments/assets/f0da9f97-27fe-48c7-b8f3-3586d6ccbc07" />
 
-15. 「Go to (プロジェクト名)」を選択する。
+16. 「Go to (プロジェクト名)」を選択する。
 
     <img width="602" height="658" alt="image" src="https://github.com/user-attachments/assets/29f21fa9-16c5-47df-a4b0-c8760d1ecf4d" />
 
-16. 「Select all」にチェックを入れ、画面下へスクロールして「Continue」を選択する。
+17. 「Select all」にチェックを入れ、画面下へスクロールして「Continue」を選択する。
 
     <img width="1008" height="1032" alt="image" src="https://github.com/user-attachments/assets/21c27450-ad5e-4892-92f2-924b304ea527" />
 
-17. 対象メールアドレスからメールを送信して、LINEアカウントにメッセージが届けば完成です。
+18. 対象メールアドレスからメールを送信して、LINEアカウントにメッセージが届けば完成です。
 
     <img width="270" height="606" alt="image" src="https://github.com/user-attachments/assets/4f0398b8-b2a8-4239-917e-d5793e347310" />
  
