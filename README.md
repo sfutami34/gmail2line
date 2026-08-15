@@ -189,6 +189,34 @@
     
        <img width="797" height="331" alt="image" src="https://github.com/user-attachments/assets/2fa8bcb5-ac26-4416-a5be-c0f77e47a28d" />
 
+## 3. 既存のLINEグループチャットにメッセージを転送する
+
+以下の設定変更を行うことで、gmail2line用アカウントをLINEグループへ招待することができるようになります。
+
+1. グループチャットへ参加できるように設定を変更する。
+   - [LINE Official Account Manager](https://account.line.biz/login?redirectUri=https%3A%2F%2Faccount.line.biz%2Foauth2%2Fcallback%3Fclient_id%3D10%26code_challenge%3DAniP_YsWYC5em6FF7zZvB4YQ08pwrX17cMNz1uNWZ8c%26code_challenge_method%3DS256%26redirect_uri%3Dhttps%253A%252F%252Fmanager.line.biz%252Fapi%252Foauth2%252FbizId%252Fcallback%26response_type%3Dcode%26state%3D6lrew9vFYY3mdlNctzU9uuYWsSMOrIHM)にログインし、gmail2line用アカウントのホーム画面を表示する。
+   - 「チャット」タブを選択する。
+     
+     <img width="941" height="482" alt="image" src="https://github.com/user-attachments/assets/6ba0b0d4-efd7-4249-a050-9d14e2533bb3" />
+
+   - 「応答設定を開く」を選択する。
+
+     <img width="1043" height="630" alt="image" src="https://github.com/user-attachments/assets/0193a462-a6e7-45be-ac34-6ce4f6ccd0ae" />
+
+   - サイドメニューの「アカウント設定」を選択する。
+
+     <img width="1005" height="360" alt="image" src="https://github.com/user-attachments/assets/670caad8-1031-409a-a0e3-96c46b3cc6f1" />
+
+   - 「グループ・複数人トークへの参加を許可する」を選択する。
+
+     <img width="1310" height="885" alt="image" src="https://github.com/user-attachments/assets/dc7f71e5-afb8-4c60-8a9d-8755d73cc3ad" />
+
+2. 自動応答メッセージをOffにする。
+   - gmail2line用アカウントのホーム画面から「チャット」タブを選択、「応答設定を開く」を選択する。
+   - 「応答メッセージ」を「Off」に変更する。
+
+     <img width="1310" height="741" alt="image" src="https://github.com/user-attachments/assets/46243753-3770-449b-932f-70f9a72cb3bb" />
+
 ---
 
 ## 補足 / 注意事項
