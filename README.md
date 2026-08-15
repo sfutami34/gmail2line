@@ -183,11 +183,11 @@
 
 18. 対象メールアドレスからメールを送信して、LINEアカウントにメッセージが届けば完成です。
 
-    <img width="270" height="606" alt="image" src="https://github.com/user-attachments/assets/4f0398b8-b2a8-4239-917e-d5793e347310" />
+    <img width="270" height="606" alt="image" src="https://github.com/user-attachments/assets/e132ce11-392e-460e-b197-8892cc54b0e3" />
  
     ※ スプレッドシートにも以下のような記録が残ります。
     
-       <img width="650" height="271" alt="image" src="https://github.com/user-attachments/assets/d5ea3d09-a61e-4c2b-b2e5-6f908618796f" />
+       <img width="797" height="331" alt="image" src="https://github.com/user-attachments/assets/2fa8bcb5-ac26-4416-a5be-c0f77e47a28d" />
 
 ---
 
