@@ -135,7 +135,7 @@ function isExistMailInSheet(mailId) {
  * 処理内容:
  *   1. アクティブなスプレッドシートを取得
  *   2. 指定シートの2行目に新規行を挿入
- *   3. メールID、受信日時、メール本文を各セルに記入
+ *   3. メールID、受信日時、件名、内容（メール本文）を各セルに記入
  */
 function writeMailInSheet(mail) {
   // アクティブなスプレッドシートを取得
@@ -152,9 +152,12 @@ function writeMailInSheet(mail) {
   
   // B2セル：メール受信日時を記入
   sheet.getRange("B2").setValue(mail.getDate());
+
+  // C2セル：件名を記入
+  sheet.getRange("C2").setValue(mail.getSubject());
   
-  // C2セル：メール本文（プレーンテキスト）を記入
-  sheet.getRange("C2").setValue(mail.getPlainBody());
+  // D2セル：メール本文（プレーンテキスト）を記入
+  sheet.getRange("D2").setValue(mail.getPlainBody());
 }
 
 
