@@ -118,9 +118,9 @@
 
    <img width="1310" height="513" alt="image" src="https://github.com/user-attachments/assets/79861391-4701-4e21-a99f-a8f7ed475975" />
 
-4. セル A1 に「メールID」、B1 に「受信日時」、C1 に「件名」、C1 に「内容」と入力する。
+4. セル A1 に「メールID」、B1 に「受信日時」、C1 に「件名」、D1 に「内容」と入力する。
 
-   <img width="1314" height="513" alt="image" src="https://github.com/user-attachments/assets/04371138-3f0c-47c9-b0e0-d1071d6bdaf2" />
+   <img width="833" height="309" alt="image" src="https://github.com/user-attachments/assets/5cef49d9-e6d6-45f5-ab85-da7860face42" />
 
 5. メニューの「拡張機能」から「Apps Script」を選択する。
 
