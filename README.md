@@ -124,7 +124,7 @@
 
 5. メニューの「拡張機能」から「Apps Script」を選択する。
 
-   <img width="1310" height="513" alt="image" src="https://github.com/user-attachments/assets/6f9b0cb5-89be-4e1d-92a7-e093b523a0ba" />
+   <img width="911" height="342" alt="image" src="https://github.com/user-attachments/assets/6e810d3a-3d33-45a1-aa84-2c31db465eb3" />
 
 6. 「エディタ」から `コード.gs` を選択し、GAS で[Gmailを受信してLINEへ転送するサンプルコード](https://github.com/sfutami34/gmail2line/blob/main/sample.gs)をコピペする。
 
@@ -140,7 +140,7 @@
 
 9. `sheetId` にスプレッドシートのIDを入力する。IDは以下のようなスプレッドシートURLの黒塗りの箇所となります。  
 
-   <img width="1126" height="453" alt="image" src="https://github.com/user-attachments/assets/8c26fdb5-3269-4d61-b732-af36de91ebf0" />
+   <img width="970" height="351" alt="image" src="https://github.com/user-attachments/assets/56db89d2-889a-42fc-a9d6-8973c58c0b98" />
 
    <img width="1126" height="915" alt="image" src="https://github.com/user-attachments/assets/ecc97d2e-4270-4dd7-b4df-f317a367d01d" />
 
